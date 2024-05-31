@@ -29,5 +29,3 @@
             | quantidade | mensagem              |
             | 9          | "Quantidade inválida" |
             | 11         | "Quantidade inválida" |
-
-Obs: Ao revisar o exercício me atentei que o critério de aceitação cita a exclusividade de 10 itens; "Deve permitir APENAS 10 produtos por venda". Desta forma, a quantidade "9" é inválida.
