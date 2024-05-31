@@ -13,8 +13,8 @@
             E adicionar ao carrinho
             Então deve exibir uma mensagem de sucesso "adicionado ao carrinho"
 
-            Cenário: Limite de produtos
-            Quando eu tiver até 10 produtos no carrinho
+            Cenário: Número de produtos
+            Quando eu tiver 10 produtos no carrinho
             Então deve permitir a compra
 
             Cenário: Botão "limpar"
@@ -27,6 +27,8 @@
 
             Exemplos:
             | quantidade | mensagem              |
+            | 9          | "Quantidade inválida" |
             | 11         | "Quantidade inválida" |
-            | 12         | "Quantidade inválida" |
-            | 15         | "Quantidade inválida" |
+
+
+Obs: Ao revisar o exercício me atentei que o critério de aceitação cita a exclusividade de 10 itens; "Deve permitir APENAS 10 produtos por venda". Desta forma, a quantidade "9" é inválida.
